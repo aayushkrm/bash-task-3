@@ -97,6 +97,6 @@ the `--`separator is not used before the dir argument when needed
 
 For example:
 
-`$ topsize -10 -s 512 /non/existing/dir
+`$ topsize -10 -s 512 /non/existing/dir`
 
-Error: /non/existing/dir is not a directory`
+`Error: /non/existing/dir is not a directory`
