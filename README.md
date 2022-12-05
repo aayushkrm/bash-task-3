@@ -48,4 +48,4 @@ print at most 5 files larger than 1 byte in -10 directory and its all subdirecto
 
  
 
-Note. Use `find' to find matching files (e.g., exceeding specified size). Use `sort' and `head' to select top N files. Use find -printf "%s %p" to print sizes (except human-readable case) or parse the output of `du' command (n.b. to use `du -b' option to find file size in bytes).
+Note. Use `find` to find matching files (e.g., exceeding specified size). Use `sort` and `head` to select top N files. Use find `-printf "%s %p`to print sizes (except human-readable case) or parse the output of `du` command (n.b. to use `du -b` option to find file size in bytes).
