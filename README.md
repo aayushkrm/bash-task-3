@@ -89,11 +89,14 @@ To print help and exit, use the --help or -h option:
 `$ topsize --help`
 `$ topsize -h`
 
-Note that the topsize script will exit with an error message and a non-zero exit status if any of the following conditions are met:
+### Note that the topsize script will exit with an error message and a non-zero exit status if any of the following conditions are met:
 
-the dir argument is not a directory
+the `dir` argument is not a directory
 an unknown option is passed to the script
-the -- separator is not used before the dir argument when needed
+the `--`separator is not used before the dir argument when needed
+
 For example:
+
 ```$ topsize -10 -s 512 /non/existing/dir
+
 Error: /non/existing/dir is not a directory```
